@@ -1,0 +1,23 @@
+{
+	"name": "canis/yii2-canis-sensor-provider",
+	"description": "Provides sensors to a sensor hub",
+	"keywords": ["yii2", "sensor"],
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Jacob Morrison",
+			"email": "jacob@canis.io"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "2.0.*",
+		"canis/yii2-canis-lib": "*"
+	},
+	"autoload": {
+		"psr-4": { "canis\\sensorProvider\\": "lib" }
+	},
+	"extra": {
+		"bootstrap": "canis\\sensorProvider\\Bootstrap"
+	}
+}
