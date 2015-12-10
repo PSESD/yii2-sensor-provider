@@ -12,7 +12,7 @@
 	],
 	"require": {
 		"yiisoft/yii2": "2.0.*",
-		"canis/yii2-canis-lib": "*"
+		"canis/sensors": "*"
 	},
 	"autoload": {
 		"psr-4": { "canis\\sensorProvider\\": "lib" }
