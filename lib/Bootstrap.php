@@ -1,5 +1,5 @@
 <?php
-namespace canis\sensorProvider;
+namespace psesd\sensorProvider;
 
 use yii\base\BootstrapInterface;
 

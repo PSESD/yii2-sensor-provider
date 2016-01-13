@@ -1,5 +1,5 @@
 {
-	"name": "canis/yii2-canis-sensor-provider",
+	"name": "psesd/yii2-sensor-provider",
 	"description": "Provides sensors to a sensor hub",
 	"keywords": ["yii2", "sensor"],
 	"type": "yii2-extension",
@@ -7,17 +7,17 @@
 	"authors": [
 		{
 			"name": "Jacob Morrison",
-			"email": "jacob@canis.io"
+			"email": "jmorrison@psesd.org"
 		}
 	],
 	"require": {
 		"yiisoft/yii2": "2.0.*",
-		"canis/sensors": "*"
+		"psesd/sensors": "*"
 	},
 	"autoload": {
-		"psr-4": { "canis\\sensorProvider\\": "lib" }
+		"psr-4": { "psesd\\sensorProvider\\": "lib" }
 	},
 	"extra": {
-		"bootstrap": "canis\\sensorProvider\\Bootstrap"
+		"bootstrap": "psesd\\sensorProvider\\Bootstrap"
 	}
 }

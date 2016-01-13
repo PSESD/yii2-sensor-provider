@@ -1,5 +1,5 @@
 <?php
-namespace canis\sensorProvider;
+namespace psesd\sensorProvider;
 
 use Yii;
 use yii\base\Application;
