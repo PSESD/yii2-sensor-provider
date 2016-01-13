@@ -1,1 +1,1 @@
-# yii2-canis-sensor-provider
+# yii2-sensor-provider
